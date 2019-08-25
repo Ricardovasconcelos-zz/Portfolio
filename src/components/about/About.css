@@ -1,0 +1,48 @@
+.About{
+    width: 100%;
+    height: 70vh;
+    background-color: #f8f9fa;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.About h3{
+       font-family: 'Montserrat', sans-serif;
+       margin-top: 50px;
+}
+.under-line{
+    position: relative;
+    width: 170px;
+    height: 1px;
+    margin: 13px auto 0px;
+    margin-bottom: 30px;
+    background-color: #6a7ff9;
+
+}
+.line-up{
+    position: absolute;
+    line-height: 1;
+    left: 1px;
+    width: 100%;
+    top: -4px;
+    display: flex;
+    justify-content: center;
+}
+.dot{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-40deg);
+    margin-right: 1px;
+    background-color: #6a7ff9;
+}
+
+.my-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10em;
+    border: 5px solid white;
+    box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.158);
+}
