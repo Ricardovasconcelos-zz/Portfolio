@@ -1,0 +1,19 @@
+.Painel{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main_description{
+    text-align: center;
+    color: white;
+}
+.Main_description h1{
+    font-size: 60px;
+    font-family: 'Kanit', sans-serif;
+    
+}
+.Main_description p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
