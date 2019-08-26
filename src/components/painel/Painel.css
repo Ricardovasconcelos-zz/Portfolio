@@ -7,13 +7,23 @@
 .Main_description{
     text-align: center;
     color: white;
+    margin-top: -6em;
 }
 .Main_description h1{
     font-size: 60px;
-    font-family: 'Kanit', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;
 }
 .Main_description p{
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Lato', sans-serif
 }
+
+@media screen and (max-width: 768px){
+    .Main_description h1{
+       font-size: 35px
+    }
+    .Main_description p{
+        font-size: 15px
+     }
+
+    }
