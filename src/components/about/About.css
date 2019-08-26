@@ -1,11 +1,11 @@
 .About{
     width: 100%;
-    height: 70vh;
+    height: 80%;
+    padding-bottom: 80px;
     background-color: #f8f9fa;
 
     display: flex;
     flex-direction: column;
-
     align-items: center;
 }
 .About h3{
@@ -45,4 +45,27 @@
     border-radius: 10em;
     border: 5px solid white;
     box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.158);
+}
+.description{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.description p{
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 26px;
+
+    font-family: 'Lato', sans-serif;
+
+}
+.text-button{
+    font-family: 'Lato', sans-serif;
+    width: 15em;
+}
+.text-button:hover{
+    box-shadow: 1px 3px 15px 5px rgba(0, 0, 0, 0.158);
 }
