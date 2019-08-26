@@ -2,7 +2,7 @@ import React from "react";
 
 import "./About.css";
 import { Button, ButtonToolbar } from "react-bootstrap";
-
+import LineUp from '../lineUp/LineUp'
 import Photo from "../img/me.jpeg";
 
 const About = props => {
@@ -10,13 +10,7 @@ const About = props => {
     <div className="About">
       <h3>About me</h3>
 
-      <div className="under-line">
-        <div className="line-up">
-          <span className="dot"></span>
-          <span className="dot"></span>
-          <span className="dot"></span>
-        </div>
-      </div>
+      <LineUp/>
 
       <img src={Photo} className="my-photo" />
 
