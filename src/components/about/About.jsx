@@ -17,8 +17,8 @@ const About = props => {
       <div className="description">
         <p>
           Graduating in Computer Science, Front-end Developer, Javascript
-          ecosystem. I've been working with that since my 16 years old, I worked
-          as Freelancer and some startups developing web applications. Now I
+          ecosystem. I've been working as developer since my 16 years old, I worked
+          as Freelancer and some startups developing web applications. I
           also give talks about my knowledge throughout my city.
         </p>
       </div>

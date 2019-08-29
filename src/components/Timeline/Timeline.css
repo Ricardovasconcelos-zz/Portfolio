@@ -1,0 +1,94 @@
+.Timeline{
+    padding-top: 50px;
+    background: #f8f9fa;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.Timlinecomponents{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.back{
+    background-color: #f8f9fa;
+}
+.Modal{
+    border: 1px solid red;
+    width: 40%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Modal{
+    border: 1px solid red;
+    width: 40%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Nuvem{
+    border-radius: 42px;
+    background-color: #6a7ff9;
+        color: #fff;
+        float: right;
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 15px;
+        padding: 12px 32px;
+        position: relative;
+        text-align: right;
+        border: 5px solid rgba(255, 255, 255, 0.48);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+    
+}
+.Nuvem2{
+    border-radius: 42px;
+    background-color: #6a7ff9;
+        color: #fff;
+        float: left;
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 15px;
+        padding: 12px 32px;
+        position: relative;
+        text-align: left;
+        border: 5px solid rgba(255, 255, 255, 0.48);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+    
+}
+.Bolinha{
+border-radius: 420px;
+background-color: #6a7ff9;
+    color: #fff;
+    float: right;
+    padding: 5px;
+    margin-top:40px;
+    position: absolute;
+    text-align: right;
+    border: 5px solid rgba(255, 255, 255, 0.48);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+    width: 10px;
+}
+.Text{
+    width: 40%;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #6a7ff9;
+    margin-right: 20px;
+}
+.Text2{
+    width: 40%;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #6a7ff9;
+    margin-left: 24px;
+    margin-top: -20px;
+}
+.Text p{
+    margin-left: 30px;
+}
