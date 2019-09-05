@@ -10,6 +10,8 @@
     background-attachment: fixed;
     overflow-x: hidden;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .Main_description{
     text-align: center;
@@ -44,7 +46,7 @@
 }
 @media screen and (max-width: 768px){
     .Main_description h1{
-       font-size: 35px
+       font-size: 35px;
     }
     .Main_description p{
         font-size: 15px
