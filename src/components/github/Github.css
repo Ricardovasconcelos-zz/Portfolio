@@ -24,7 +24,7 @@
     text-align-last: center;
     margin-top: 30px;
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 26px;
 
     font-family: 'Lato', sans-serif;
@@ -89,6 +89,10 @@
     margin-left: 3%;
     padding-right: 10px;
 }
+.description{
+    text-align: justify;
+    text-align-last: center;
+}
 
 .Repositories{
     margin-bottom: 15px;
@@ -103,6 +107,7 @@
 
 .Repositories:hover{
     box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.075);
+    transition: all 0.4s ease-out;
 }
 
 .Repositories p{
@@ -121,6 +126,9 @@
 
 .profile-github{
     width: 80%;
+}
+.projects-component{
+    margin-left: 8%;
 }
 
 }

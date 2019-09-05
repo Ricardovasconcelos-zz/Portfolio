@@ -1,0 +1,33 @@
+.Footer{
+    background-color: #282d32;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    
+    height: 23vh;
+}
+.editIcons{
+    width: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.editIcons:hover{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+}
+@media screen and (max-width: 768px){
+    
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

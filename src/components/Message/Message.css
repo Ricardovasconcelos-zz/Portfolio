@@ -1,0 +1,64 @@
+.Message{
+    background-color: #ffffff;
+    padding: 100px 0 100px 0
+}
+.MessageComponents{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.MessageComponents h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.MessageComponents p{
+    font-family: 'Lato', sans-serif;
+    color: #546ae9;
+    cursor: pointer;
+}
+.MessageComponents p:hover{
+    color: #0757ad;
+}
+.MessageComponents p > a{
+    text-decoration: none
+}
+
+.Whatsapp{
+ 
+    height: 150px;
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.1);
+
+}
+.Email{
+    height: 150px;
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.1);
+
+}
+@media screen and (max-width: 768px){
+    .MessageComponents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Whatsapp{
+        width: 75%; 
+        margin-bottom: 50px;
+    }
+    .Email{
+        width: 75%;
+    }
+
+    }

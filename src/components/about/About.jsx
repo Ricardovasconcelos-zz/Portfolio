@@ -12,11 +12,12 @@ const About = props => {
 
       <LineUp/>
 
-      <img src={Photo} className="my-photo" />
+      <img src={Photo} className="my-photo" alt=''/>
+
 
       <div className="description">
         <p>
-          Graduating in Computer Science, Front-end Developer, Javascript
+          Graduating in Computer Science, Front-end Developer and in love with Javascript
           ecosystem. I've been working as developer since my 16 years old, I worked
           as Freelancer and some startups developing web applications. I
           also give talks about my knowledge throughout my city.

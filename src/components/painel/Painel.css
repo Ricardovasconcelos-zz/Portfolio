@@ -17,7 +17,24 @@
     font-size: 20px;
     font-family: 'Lato', sans-serif
 }
-
+.editImage{
+    width: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.editImage:hover{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+}
+.IconSocial{
+    padding-top: 40px;
+}
 @media screen and (max-width: 768px){
     .Main_description h1{
        font-size: 35px
@@ -25,5 +42,10 @@
     .Main_description p{
         font-size: 15px
      }
+     .editImage{
+        width: 35px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
     }
