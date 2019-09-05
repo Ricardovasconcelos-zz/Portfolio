@@ -14,6 +14,7 @@ import { Container } from "react-bootstrap";
 
 
 const Painel = () => (
+  <div className="Background"> 
   <Container>
     <div className="Painel">
       <div className="Main_description">
@@ -50,6 +51,7 @@ const Painel = () => (
       </div>
     </div>
   </Container>
+  </div>
 );
 
 export default Painel;

@@ -13,7 +13,7 @@ const Message = () => (
             <FaWhatsapp size={50}/>
           <h6>Whatsapp</h6>
           <p>
-              <a href='http://api.whatsapp.com/send?1=pt_BR&phone=5582996597718'>Fale comigo agora!</a>
+              <a href='http://api.whatsapp.com/send?1=pt_BR&phone=5582996597718'>Send me a message!</a>
           </p>
         </div>
 

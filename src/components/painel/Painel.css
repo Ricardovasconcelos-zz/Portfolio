@@ -4,6 +4,13 @@
     justify-content: center;
     align-items: center;
 }
+.Background{
+    background: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    background-size: cover;
+}
 .Main_description{
     text-align: center;
     color: white;

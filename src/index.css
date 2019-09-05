@@ -7,13 +7,6 @@
 }
 
 body{
-  background: url(./components/img/back.jpg);
-
-  background-attachment: fixed;
-  overflow-x: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale;
 }
