@@ -16,5 +16,6 @@ body{
   background-position: top;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
