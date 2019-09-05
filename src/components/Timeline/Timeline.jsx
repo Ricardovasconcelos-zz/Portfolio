@@ -28,7 +28,7 @@ const Time = props => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="September - 2018"
-        iconStyle={{ background: "#f1c233ff", color: "#fff" }}
+        iconStyle={{ background: "rgb(241,194,51)", color: "#fff" }}
         icon={<DiJsBadge />}
       > 
 
@@ -84,7 +84,7 @@ const Time = props => (
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="August - 2019"
-        iconStyle={{ background: "#f1c233ff", color: "#fff" }}
+        iconStyle={{ background: "rgb(241,194,51)", color: "#fff" }}
         icon={<DiJsBadge />}
       >
         <h3 className="vertical-timeline-element-title">What is Javascript?</h3>

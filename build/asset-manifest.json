@@ -1,34 +1,20 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "/Portfolio/static/css/main.d962c244.chunk.css",
+    "main.css": "/Portfolio/static/css/main.f9f3a9ac.chunk.css",
     "main.js": "/Portfolio/static/js/main.2d324f66.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.2d324f66.chunk.js.map",
-=======
-    "main.css": "/Portfolio/static/css/main.b1a1a1e2.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a1d72875.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a1d72875.chunk.js.map",
->>>>>>> f22f86455b66fe08a8215e0740e3f67fa14d4801
     "runtime~main.js": "/Portfolio/static/js/runtime~main.4b936488.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.4b936488.js.map",
     "static/css/2.a8a26b3a.chunk.css": "/Portfolio/static/css/2.a8a26b3a.chunk.css",
     "static/js/2.983ce39e.chunk.js": "/Portfolio/static/js/2.983ce39e.chunk.js",
     "static/js/2.983ce39e.chunk.js.map": "/Portfolio/static/js/2.983ce39e.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-<<<<<<< HEAD
-    "precache-manifest.cf21e7cec88e04c7387e2820a1a42ad7.js": "/Portfolio/precache-manifest.cf21e7cec88e04c7387e2820a1a42ad7.js",
+    "precache-manifest.a7663187a9d486c8c0d1b8fcce0871b8.js": "/Portfolio/precache-manifest.a7663187a9d486c8c0d1b8fcce0871b8.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.a8a26b3a.chunk.css.map": "/Portfolio/static/css/2.a8a26b3a.chunk.css.map",
-    "static/css/main.d962c244.chunk.css.map": "/Portfolio/static/css/main.d962c244.chunk.css.map",
+    "static/css/main.f9f3a9ac.chunk.css.map": "/Portfolio/static/css/main.f9f3a9ac.chunk.css.map",
     "static/media/Painel.css": "/Portfolio/static/media/back.bb82ed2f.jpg",
     "static/media/cv.pdf": "/Portfolio/static/media/cv.e43c18ac.pdf",
-=======
-    "precache-manifest.6f86b9d5f3c7784c8418b6cbfdd73562.js": "/Portfolio/precache-manifest.6f86b9d5f3c7784c8418b6cbfdd73562.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/2.a8a26b3a.chunk.css.map": "/Portfolio/static/css/2.a8a26b3a.chunk.css.map",
-    "static/css/main.b1a1a1e2.chunk.css.map": "/Portfolio/static/css/main.b1a1a1e2.chunk.css.map",
-    "static/media/Painel.css": "/Portfolio/static/media/back.bb82ed2f.jpg",
->>>>>>> f22f86455b66fe08a8215e0740e3f67fa14d4801
     "static/media/github.svg": "/Portfolio/static/media/github.599419a1.svg",
     "static/media/instagram.svg": "/Portfolio/static/media/instagram.7dc65b2f.svg",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.441a8e60.svg",
