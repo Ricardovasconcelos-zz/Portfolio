@@ -4,6 +4,7 @@ import "./About.css";
 import { Button, ButtonToolbar } from "react-bootstrap";
 import LineUp from '../lineUp/LineUp'
 import Photo from "../img/me.jpeg";
+import CV from '../cv/cv.pdf'
 
 const About = props => {
   return (
@@ -17,15 +18,18 @@ const About = props => {
 
       <div className="description">
         <p>
-          Graduating in Computer Science, Front-end Developer and in love with Javascript
+          I'm doing bachelor's degree in computer science, working as front-end developer and in love with Javascript
           ecosystem. I've been working as developer since my 16 years old, I worked
-          as Freelancer and some startups developing web applications. I
+          as freelancer and now I work at a startup developing web and mobile applications. I
           also give talks about my knowledge throughout my city.
         </p>
       </div>
 
       <ButtonToolbar>
-        <Button variant="primary" className="text-button">DOWNLOAD MY CV</Button>
+        <Button variant="primary" 
+        className="text-button" onClick={e => { e.preventDefault(); window.open(CV); }}>
+          DOWNLOAD MY CV
+          </Button>
       </ButtonToolbar>
     </div>
   );
