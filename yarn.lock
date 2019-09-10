@@ -8747,6 +8747,13 @@ react-typing-animation@^1.6.2:
     shortid "^2.2.8"
     styled-components "^1.4.6"
 
+react-typist@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/react-typist/-/react-typist-2.0.5.tgz#9830395a73a03e6368e1392ecb98edaa3a648e44"
+  integrity sha512-iZCkeqeegO0TlkTMiH2JD1tvMtY9RrXkRylnAI6m8aCVAUUwNzoWTVF7CKLij6THeOMcUDCznLDDvNp55s+YZA==
+  dependencies:
+    prop-types "^15.5.10"
+
 react-vertical-timeline-component@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/react-vertical-timeline-component/-/react-vertical-timeline-component-2.4.0.tgz#b366ab95fe816b24e275c3de9716a838b9607a4d"

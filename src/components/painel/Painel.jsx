@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Painel.css";
-import Typing from "react-typing-animation";
+import Typing, { Cursor } from "react-typing-animation";
 import {Animated} from "react-animated-css";
 
 import Instagram from "../img/instagram.svg";
@@ -19,7 +19,9 @@ const Painel = () => (
     <div className="Painel">
       <div className="Main_description">
         
-        <Typing>
+        <Typing hideCursor={true}>
+          
+        <Typing.Delay ms={1200} />
           <h1>I'm Ricardo Vasconcelos</h1>
         </Typing>
 
